@@ -6,7 +6,7 @@ from io import BytesIO
 
 # API Key Handling
 try:
-    genai.configure(api_key="AIzaSyDZLQ1w0fLYAKAfSLosTPMjf-EnRmqOhFg")  # Replace with your actual API key
+    genai.configure(api_key="your-api-key")  # Replace with your actual API key
 except Exception as e:
     print(f"Error configuring API key: {e}")
 
@@ -20,7 +20,7 @@ except Exception as e:
 
 # Telegram Bot Setup
 try:
-    bot = telebot.TeleBot("6696646368:AAGgTXhEV264cGPSCedYB-LGFJ67RlibXIw")  # Replace with your bot token
+    bot = telebot.TeleBot("your-bot-token")  # Replace with your bot token
 except Exception as e:
     print(f"Error creating Telegram bot: {e}")
 
